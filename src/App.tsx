@@ -602,7 +602,7 @@ const AuthModal = ({ isOpen, onClose, initialView }: { isOpen: boolean, onClose:
         initial={{ opacity: 0, scale: 0.95, y: 20 }}
         animate={{ opacity: 1, scale: 1, y: 0 }}
         exit={{ opacity: 0, scale: 0.95, y: 20 }}
-        className="relative w-full max-w-lg glass-card rounded-[2.5rem] sm:rounded-[3rem] overflow-hidden shadow-3xl max-h-[90vh] overflow-y-auto"
+        className="relative w-full max-w-lg glass-card rounded-[2.5rem] sm:rounded-[3rem] overflow-hidden shadow-3xl max-h-[90vh] overflow-y-auto scrollbar-hide"
       >
         <button 
           onClick={onClose}

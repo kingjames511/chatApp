@@ -68,6 +68,14 @@
            focus:border-brand-500 focus:ring-4 focus:ring-brand-500/10 rounded-2xl outline-none 
            transition-all duration-300 dark:text-white;
   }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 .animate-float {
